@@ -1,5 +1,12 @@
 
 
+
+//Link to Tinkercad circuit
+[Click here to view the Tinkercad Simulation](https://www.tinkercad.com/things/i0ojHjmMpsN-ec25i2021-question-1)
+
+
+
+
 //Explanation of code 
 
 
