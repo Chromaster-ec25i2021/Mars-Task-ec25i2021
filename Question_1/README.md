@@ -26,32 +26,41 @@ unsigned long previousTime1 = 0;
 unsigned long previousTime2 = 0;
 unsigned long previousTime3 = 0;
 
+
 int state1 = LOW;
 int state2 = LOW;
 int state3 = LOW;
 
-void setup() {
+void setup()
+{
   pinMode(13, OUTPUT);
   pinMode(12, OUTPUT);
   pinMode(11, OUTPUT);
 }
 
-void loop() {
+void loop() 
+{
   unsigned long currentTime = millis();
 
-  if (currentTime - previousTime1 >= 500) {
+  if (currentTime - previousTime1 >= 500)
+  {
     previousTime1 = currentTime;
     state1 = !state1;
     digitalWrite(13, state1);
   }
-  if (currentTime - previousTime2 >= 1000) {
+  
+  if (currentTime - previousTime2 >= 1000) 
+  {
     previousTime2 = currentTime;
     state2 = !state2;
     digitalWrite(12, state2);
   }
-  if (currentTime - previousTime3 >= 1500) {
+  
+  if (currentTime - previousTime3 >= 1500)
+  {
     previousTime3 = currentTime;
     state3 = !state3;
     digitalWrite(11, state3);
   }
+  
 }
