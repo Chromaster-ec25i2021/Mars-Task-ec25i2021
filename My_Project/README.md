@@ -1,5 +1,5 @@
 ### 🔗 Tinkercad Simulation Link
-[Click here to view: Question 1 - Blinking LED with Multiple Intervals](https://www.tinkercad.com/things/eaQLO1O5Sxy-my-project)
+[Click here to view: My Project](https://www.tinkercad.com/things/eaQLO1O5Sxy-my-project)
 
 
 //code explanation
