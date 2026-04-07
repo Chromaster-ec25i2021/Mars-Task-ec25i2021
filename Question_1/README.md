@@ -5,8 +5,6 @@
 [Click here to view the Tinkercad Simulation](https://www.tinkercad.com/things/i0ojHjmMpsN-ec25i2021-question-1)
 
 
-
-
 //Explanation of code 
 
 
@@ -21,7 +19,6 @@ The core logic relies on a conditional check that calculates the difference betw
 When this difference reaches the predefined interval, the timestamp is updated to the current time, and the LED's state is flipped using a logical NOT operator. 
 This process ensures that each LED toggles between HIGH and LOW independently, creating a non-blocking execution flow where all three blinking 
 patterns occur in parallel at their respective frequencies.
-
 
 // C++ code
 
